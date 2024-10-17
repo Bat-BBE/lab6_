@@ -140,7 +140,6 @@ nav ul li a:hover {
 .hotel {
     background-color: #fff;
     border-radius: 15px;
-    overflow: hidden;
     width: 20%;
 }
 .hotel a {
