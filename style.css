@@ -1,0 +1,362 @@
+body {
+    font-family: 'Circular', Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px 0;
+}
+header header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 0;
+}
+header section {
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FF385C;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #FF385C;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+.profile {
+    background: none;
+    border: none;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.search-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    border: 1px solid #333;
+}
+
+.search-list input {
+    border: none;
+    font-size: 16px;
+    border-right:1px solid #ddd;
+    padding: 15px;
+    border-radius: 30px;
+}
+.search-list button {
+    background-color: #FF385C;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.search-short:hover {
+    background-color: darkgray;
+    color: #FF385C;
+}
+.category {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.category-icons {
+    display: flex;
+    margin-top: 0px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.icon {
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    margin-right: 10px;
+}
+.icon a {
+    text-decoration: none;
+    color: black;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+.house {
+    padding: 40px;
+    text-align: center;
+}
+.hotel-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    display: flex;
+}
+.hotel {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 20%;
+}
+.hotel a {
+    text-decoration: none;
+    color:#000;
+}
+.hotel-img {
+    width: 100%;
+    height: 200px;
+}
+
+.hotel p {
+    margin: 10px;
+}
+.hotel:hover {
+    transform: scale(1.10);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.location {
+    color: gray;
+    font-size: 14px;
+}
+.price {
+    font-weight: bold;
+    color: #FF385C;
+}
+.inspiration {
+    padding: 40px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+.inspiration h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ededed;
+}
+
+.tab-link {
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #555;
+}
+
+.tab-link.active, .tab-link:hover {
+    color: #000;
+}
+.tab-link.active {
+    border-bottom:1px solid #000;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.location-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.location-item p {
+    font-size: 14px;
+    color: #555;
+}
+.location-item strong {
+    font-size: 16px;
+    color: #3b3b3b;
+}
+.location-item a {
+    text-decoration: none;
+    color: #000;
+}
+.location-item a:hover {
+    text-decoration: underline;
+}
+.hosting {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 40px;
+    justify-content: center;
+    text-align: left;
+    border-top: 1px solid #ddd;
+}
+
+.hosting-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.hosting-section h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #010000;
+}
+
+.hosting-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hosting-section ul li {
+    margin-bottom: 10px;
+}
+
+.hosting-section ul li a {
+    text-decoration: none;
+    color: #535151;
+}
+
+.hosting-section ul li a:hover {
+    color: #FF385C;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+}
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+.footer-item a {
+    text-decoration: none;
+    color:#000;
+}
+.footer-item a img {
+    width: 25px;
+    height: 25px;
+}
+@media screen and (min-width: 768px) {
+    .hotel {
+        width: 30%;
+    }
+    .hotel-list {
+        gap: 30px;
+    }
+    .category-icons {
+        gap: 50px;
+    }
+    .search-list {
+        width: 80%;
+    }
+    .tabs {
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+    .tab-link {
+        flex: 1;
+        white-space: nowrap;
+        font-size: 16px;
+        padding: 10px 15px;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hotel {
+        width: 90%;
+    }
+    .search-list {
+        flex-direction: column;
+        width: 100%;
+    }
+    .category-icons {
+        gap: 20px;
+    }
+    .hotel-list {
+        gap: 20px;
+    }
+    .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .tab-link {
+        flex: 1 1 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .footer-item {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
