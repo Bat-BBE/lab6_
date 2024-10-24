@@ -3,29 +3,17 @@ body {
     line-height: 1.6;
 }
 header {
-    border-bottom: 1px solid #ddd;
     background-color: #fff;
-    padding: 10px 0;
-}
-header header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    border-bottom: 0;
-}
-header section {
-    justify-content: center;
 }
 
 .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #FF385C;
-    font-size: 30px;
-    font-weight: bold;
     padding: 20px 20px;
 }
 
@@ -66,8 +54,6 @@ nav ul li a:hover {
 .search {
     display: flex;
     justify-content: center;
-    padding: 30px;
-    margin-top: 0px;
     background-color: white;
 }
 
@@ -75,8 +61,6 @@ nav ul li a:hover {
     display: flex;
     gap: 15px;
     align-items: center;
-    border-radius: 30px;
-    padding: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-top: 0px;
     border: 1px solid #333;
@@ -103,17 +87,12 @@ nav ul li a:hover {
 .category {
     display: flex;
     justify-content: center;
-    padding: 20px;
-    margin-top: 0px;
 }
 .category-icons {
-    display: flex;
-    margin-top: 0px;
     overflow-x: auto;
     white-space: nowrap;
 }
 .icon {
-    font-size: 14px;
     display: flex;
     text-align: center;
     margin-right: 10px;
@@ -126,15 +105,10 @@ nav ul li a:hover {
     width: 30px;
     height: 30px;
 }
-.house {
-    padding: 40px;
-    text-align: center;
-}
 .hotel-list {
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
-    width: 100%;
     display: flex;
 }
 .hotel {
@@ -147,8 +121,8 @@ nav ul li a:hover {
     color:#000;
 }
 .hotel-img {
-    width: 100%;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
 }
 
 .hotel p {
@@ -167,24 +141,14 @@ nav ul li a:hover {
     color: #FF385C;
 }
 .inspiration {
-    padding: 40px;
-    text-align: center;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ddd;
 }
 .inspiration h2 {
     text-align: left;
-    font-size: 24px;
     margin-bottom: 30px;
-    font-weight: 600;
     padding-left: 10px;
 }
-.tabs {
-    display: flex;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #ededed;
-}
-
 .tab-link {
     padding: 10px 15px;
     border: none;
@@ -192,19 +156,15 @@ nav ul li a:hover {
     font-size: 16px;
     color: #555;
 }
-
 .tab-link.active, .tab-link:hover {
-    color: #000;
+    color: #000000;
 }
-.tab-link.active {
+  .tab-link.active {
     border-bottom:1px solid #000;
 }
-
 .locations {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
 }
 .location-item {
     display: flex;
@@ -230,32 +190,20 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     background-color: #f7f7f7;
-    padding: 40px;
     justify-content: center;
-    text-align: left;
     border-top: 1px solid #ddd;
 }
-
-.hosting-section {
-    flex: 1;
-    padding: 0 20px;
-}
-
-.hosting-section h4 {
-    font-size: 16px;
+.hosting-section h3 {
     margin-bottom: 15px;
     color: #010000;
 }
-
 .hosting-section ul {
     list-style: none;
     padding: 0;
 }
-
 .hosting-section ul li {
     margin-bottom: 10px;
 }
-
 .hosting-section ul li a {
     text-decoration: none;
     color: #535151;
@@ -269,9 +217,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
     background-color: #f7f7f7;
-    border-top: 1px solid #ddd;
 }
 .footer-item {
     display: flex;
@@ -288,6 +234,10 @@ footer {
 .footer-item a img {
     width: 25px;
     height: 25px;
+}
+img {
+    max-width: 100%; 
+    height: auto; 
 }
 @media screen and (min-width: 768px) {
     .hotel {
@@ -315,7 +265,6 @@ footer {
         border-bottom: none;
     }
 }
-
 @media screen and (max-width: 767px) {
     header {
         flex-direction: column;
