@@ -23,6 +23,9 @@ header {
 
 .logo img {
     margin-right: 10px;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 nav ul {
@@ -55,10 +58,17 @@ nav ul li a:hover {
     background: none;
     border: none;
 }
+.profile img {
+    width: 120px; 
+    max-width: 100%;
+    height: auto;
+}
 .search {
     display: flex;
     justify-content: center;
     background-color: white;
+    padding: 20px; 
+    margin-top: 0px;
 }
 
 .search-list {
@@ -68,6 +78,8 @@ nav ul li a:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-top: 0px;
     border: 1px solid #333;
+    border-radius: 30px; 
+    padding: 10px;
 }
 
 .search-list input {
@@ -91,8 +103,11 @@ nav ul li a:hover {
 .category {
     display: flex;
     justify-content: center;
+    padding: 20px; 
+    margin-top: 0px;
 }
 .category-icons {
+    display: flex;
     overflow-x: auto;
     white-space: nowrap;
 }
@@ -107,13 +122,19 @@ nav ul li a:hover {
 }
 .icon img {
     width: 30px;
-    height: 30px;
+    max-width: 100%;
+    height: auto;
+}
+.house {
+    padding: 40px; 
+    text-align: center;
 }
 .hotel-list {
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     display: flex;
+    width: 100%;
 }
 .hotel {
     background-color: #fff;
@@ -145,13 +166,22 @@ nav ul li a:hover {
     color: #FF385C;
 }
 .inspiration {
+    padding: 40px; 
+    text-align: center;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ddd;
 }
-.inspiration h2 {
+.inspiration h3 {
+    font-size: 24px; 
+    font-weight: 600;
     text-align: left;
     margin-bottom: 30px;
     padding-left: 10px;
+}
+.tabs {
+    display: flex; 
+    margin-bottom: 15px; 
+    border-bottom: 1px solid #ededed;
 }
 .tab-link {
     padding: 10px 15px;
@@ -167,6 +197,8 @@ nav ul li a:hover {
     border-bottom:1px solid #000;
 }
 .locations {
+    display: flex; 
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -196,8 +228,16 @@ nav ul li a:hover {
     background-color: #f7f7f7;
     justify-content: center;
     border-top: 1px solid #ddd;
+    padding: 40px; 
+    text-align: left
+}
+.hosting-section {
+    flex: 1; 
+    padding: 0 20px;
 }
 .hosting-section h3 {
+    padding: 0 20px;
+    font-size: 16px;
     margin-bottom: 15px;
     color: #010000;
 }
@@ -217,6 +257,8 @@ nav ul li a:hover {
     color: #FF385C;
 }
 footer {
+    padding: 10px; 
+    border-top: 1px solid #ddd; 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -238,10 +280,6 @@ footer {
 .footer-item a img {
     width: 25px;
     height: 25px;
-}
-img {
-    max-width: 100%; 
-    height: auto; 
 }
 @media screen and (min-width: 768px) {
     .hotel {
