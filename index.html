@@ -24,13 +24,26 @@
         <link rel="canonical" href="https://bat-bbe.github.io/lab6_">
         <link rel="icon" href="zurag/favicon.ico" type="image/x-icon">
         <link rel="shortcut icon" href="zurag/favicon.ico" type="image/x-icon">   
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Airbnb Clone",
+              "url": "https://bat-bbe.github.io/lab6_",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://bat-bbe.github.io/lab6_/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
+        </script>
     </head>
     
 <body>
     <header>
         <div class="logo">
             <img src="zurag/logo.jpg" alt="Airbnb Clone Logo - Vacation Rentals and Unique Stays" loading="lazy" style="width: 50px; height: 50px;"/>
-            <h1 style="font-size: 30px;">Vacation Rentals & Unique Stays | Airbnb Clone</h1>
+            <h1 style="font-size: 30px;">Find Unique Vacation Rentals | Airbnb Clone</h1>
         </div>
         <nav>
             <ul>
@@ -46,271 +59,274 @@
         </div>
     </header>    
 
-    <section class="search" style="padding: 20px; margin-top: 0px;">
-        <div class="search-list" style="border-radius: 30px; padding: 10px;">
-            <input type="text" placeholder="Where" class="location-input">
-            <input type="text" placeholder="Check in" class="date-input">
-            <input type="text" placeholder="Check out" class="date-input">
-            <input type="text" placeholder="Who" class="guests-input">
-            <button class="search-short">Search</button>
-        </div>
-    </section>
-    <section class="category" style="padding: 20px; margin-top: 0px;">
-        <div class="category-icons" style="display: flex;">
-            <div class="icon">
-                <a href="index.html"><img src="zurag/room_logo.webp" alt="Rooms" loading="lazy">
-                <p>Rooms</p></a> 
+    <main>
+        <section class="search" style="padding: 20px; margin-top: 0px;">
+            <div class="search-list" style="border-radius: 30px; padding: 10px;">
+                <input type="text" placeholder="Where" class="location-input">
+                <input type="text" placeholder="Check in" class="date-input">
+                <input type="text" placeholder="Check out" class="date-input">
+                <input type="text" placeholder="Who" class="guests-input">
+                <button class="search-short">Search</button>
             </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/yurts_logo.webp" alt="Yurts" loading="lazy">
-                <p>Yurts</p></a>
-            </div>
-            <div class="icon" >
-                <a href="#"><img src="zurag/icons_kogo.webp" alt="Icons" loading="lazy">
-                <p>Icons</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/countryside_logo.webp" alt="Countryside" loading="lazy">
-                <p>Countryside</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/tropical_logo.webp" alt="tropical" loading="lazy">
-                <p>Tropical</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/amazing_logo.webp" alt="Amazing" loading="lazy">
-                <p>Amazing tools</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/amazingview_logo.webp" alt="Amazing views" loading="lazy">
-                <p>Amazing views</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/omg_logo.webp" alt="OMG" loading="lazy">
-                <p>OMG!</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/trend_logo.webp" alt="Trending" loading="lazy">
-                <p>Trending</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/park_logo.webp" alt="National parks" loading="lazy">
-                <p>National Parks</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/pianos_logo.webp" alt="Grand pianos" loading="lazy">
-                <p>Grand pianos</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/camping_loo.webp" alt="Camping" loading="lazy">
-                <p>Camping</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/castles_logo.webp" alt="Castles" loading="lazy">
-                <p>Castles</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/beach_logo.webp" alt="Beach" loading="lazy">
-                <p>Beach</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/lakefront_logo.webp" alt="Lakefront" loading="lazy">
-                <p>Lakefront</p></a>
-            </div>
-            <div class="icon">
-                <a href="#"><img src="zurag/chef_logo.webp" alt="Chef's kitchens" loading="lazy">
-                <p>Chef's kitchens</p></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="house" style="padding: 40px; text-align: center;">
-        <div class="hotel-list" style="width: 100%;">
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/30931885?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1626884980&search_mode=flex_destinations_search&check_in=2025-01-23&check_out=2025-01-28&source_impression_id=p3_1729062675_P3U8bc7uqGaD1u_I&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house1.webp" alt="Beautiful Beach House" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$34/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/563604126351538587?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1625293389&search_mode=flex_destinations_search&check_in=2024-11-17&check_out=2024-11-22&source_impression_id=p3_1729062809_P3m6NbG2DBZybtUt&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house2.webp" alt="Beautiful Beach House_2" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House_2</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$54/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/39000504?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1626921496&search_mode=flex_destinations_search&check_in=2024-10-17&check_out=2024-10-22&source_impression_id=p3_1729062858_P34N3lbx3XcW_Htu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house3.webp" alt="Beautiful Beach House_3" loading="lazy"  class="hotel-img">
-                <p>Beautiful Beach House_3</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$22/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house4.webp" alt="Beautiful Beach House_4" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House_4</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$26/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house4.webp" alt="Beautiful Beach House_5" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House_5</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$28/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house4.webp" alt="Beautiful Beach House_6" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House_6</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$23/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house4.webp" alt="Beautiful Beach House_7" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House_7</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$43/night</p></a>
-            </div>
-            <div class="hotel">
-                <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
-                <img src="zurag/house4.webp" alt="Beautiful Beach House_8" loading="lazy" class="hotel-img">
-                <p>Beautiful Beach House_8</p>
-                <p class="location">Rio de Janeiro, Brazil</p>
-                <p class="price">$43/night</p></a>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="inspiration" style="padding: 40px; text-align: center;">
-            <h2 style="font-size: 24px; font-weight: 600;">Inspiration for future getaways</h2>
-            <div class="tabs" style="display: flex; margin-bottom: 15px; border-bottom: 1px solid #ededed;">
-                <button class="tab-link active">Popular</button>
-                <button class="tab-link">Arts & culture</button>
-                <button class="tab-link">Outdoors</button>
-                <button class="tab-link">Mountains</button>
-                <button class="tab-link">Beach</button>
-                <button class="tab-link">Unique stays</button>
-                <button class="tab-link">Categories</button>
-                <button class="tab-link">Things to do</button>
-                <button class="tab-link">Travel tips & inspiration</button>
-                <button class="tab-link">Airbnb-friendly apartments</button>
-            </div>
-            <div class="locations" style="display: flex; gap: 40px;">
-                <div class="location-item">
-                    <strong>Canmore</strong>
-                    <p>Chalet rentals</p>
+        </section>
+        <section class="category" style="padding: 20px; margin-top: 0px;">
+            <div class="category-icons" style="display: flex;">
+                <div class="icon">
+                    <a href="index.html"><img src="zurag/room_logo.webp" alt="Rooms" loading="lazy">
+                    <p>Rooms</p></a> 
                 </div>
-                <div class="location-item">
-                    <strong>Benalmádena</strong>
-                    <p>Apartment rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/yurts_logo.webp" alt="Yurts" loading="lazy">
+                    <p>Yurts</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Marbella</strong>
-                    <p>Villa rentals</p>
+                <div class="icon" >
+                    <a href="#"><img src="zurag/icons_kogo.webp" alt="Icons" loading="lazy">
+                    <p>Icons</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Tucson</strong>
-                    <p>Pet-friendly rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/countryside_logo.webp" alt="Countryside" loading="lazy">
+                    <p>Countryside</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Jasper</strong>
-                    <p>Cabin rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/tropical_logo.webp" alt="tropical" loading="lazy">
+                    <p>Tropical</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Mountain View</strong>
-                    <p>Family-friendly rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/amazing_logo.webp" alt="Amazing" loading="lazy">
+                    <p>Amazing tools</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Mijas</strong>
-                    <p>House rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/amazingview_logo.webp" alt="Amazing views" loading="lazy">
+                    <p>Amazing views</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Prescott</strong>
-                    <p>Cottage rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/omg_logo.webp" alt="OMG" loading="lazy">
+                    <p>OMG!</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Scottsdale</strong>
-                    <p>Mansion rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/trend_logo.webp" alt="Trending" loading="lazy">
+                    <p>Trending</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Anaheim</strong>
-                    <p>Apartment rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/park_logo.webp" alt="National parks" loading="lazy">
+                    <p>National Parks</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Monterey</strong>
-                    <p>Apartment rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/pianos_logo.webp" alt="Grand pianos" loading="lazy">
+                    <p>Grand pianos</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Paso Robles</strong>
-                    <p>House rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/camping_loo.webp" alt="Camping" loading="lazy">
+                    <p>Camping</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Devonport</strong>
-                    <p>Cottage rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/castles_logo.webp" alt="Castles" loading="lazy">
+                    <p>Castles</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Mallacoota</strong>
-                    <p>Pet-friendly rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/beach_logo.webp" alt="Beach" loading="lazy">
+                    <p>Beach</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Ibiza</strong>
-                    <p>Vacation rentals</p>
+                <div class="icon">
+                    <a href="#"><img src="zurag/lakefront_logo.webp" alt="Lakefront" loading="lazy">
+                    <p>Lakefront</p></a>
                 </div>
-                <div class="location-item">
-                    <strong>Santa Barbara</strong>
-                    <p>Condo rentals</p>
-                </div>
-                <div class="location-item">
-                    <strong>Sonoma</strong>
-                    <p>Pet-friendly rentals</p>
-                </div>
-                <div class="location-item">
-                    <a href="#">Show more</a>
+                <div class="icon">
+                    <a href="#"><img src="zurag/chef_logo.webp" alt="Chef's kitchens" loading="lazy">
+                    <p>Chef's kitchens</p></a>
                 </div>
             </div>
-        </div>        
-    </section>
-
-    <section class="hosting" style="padding: 40px; text-align: left"> 
-        <div class="hosting-section" style="flex: 1; padding: 0 20px;">
-            <h3 style="font-size: 16px;">Support</h3>
-            <ul>
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">AirCover</a></li>
-                <li><a href="#">Anti-discrimination</a></li>
-                <li><a href="#">Disability support</a></li>
-                <li><a href="#">Cancellation options</a></li>
-                <li><a href="#">Report neighborhood concern</a></li>
-            </ul>
-        </div>
-        <div class="hosting-section" style="flex: 1; padding: 0 20px;">
-            <h3>Hosting</h3>
-            <ul>
-                <li><a href="#">Airbnb your home</a></li>
-                <li><a href="#">AirCover for Hosts</a></li>
-                <li><a href="#">Hosting resources</a></li>
-                <li><a href="#">Community forum</a></li>
-                <li><a href="#">Hosting responsibly</a></li>
-                <li><a href="#">Join a free Hosting class</a></li>
-            </ul>
-        </div>
-        <div class="hosting-section" style="flex: 1; padding: 0 20px;">
-            <h3>Airbnb</h3>
-            <ul>
-                <li><a href="#">Newsroom</a></li>
-                <li><a href="#">New features</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Investors</a></li>
-                <li><a href="#">Gift cards</a></li>
-                <li><a href="#">Airbnb.org emergency stays</a></li>
-            </ul>
-        </div>
-    </section>
+        </section>
+    
+        <section class="house" style="padding: 40px; text-align: center;">
+            <div class="hotel-list" style="width: 100%;">
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/30931885?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1626884980&search_mode=flex_destinations_search&check_in=2025-01-23&check_out=2025-01-28&source_impression_id=p3_1729062675_P3U8bc7uqGaD1u_I&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house1.webp" alt="Beautiful Beach House" loading="lazy" class="hotel-img">
+                    <h2>Beautiful Beach House</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$34/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/563604126351538587?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1625293389&search_mode=flex_destinations_search&check_in=2024-11-17&check_out=2024-11-22&source_impression_id=p3_1729062809_P3m6NbG2DBZybtUt&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house2.webp" alt="Beautiful Beach House_2" loading="lazy" class="hotel-img">
+                    <h2>Beautiful Beach House_2</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$54/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/39000504?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1626921496&search_mode=flex_destinations_search&check_in=2024-10-17&check_out=2024-10-22&source_impression_id=p3_1729062858_P34N3lbx3XcW_Htu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house3.webp" alt="Beautiful Beach House_3" loading="lazy"  class="hotel-img">
+                    <h2>Beautiful Beach House_3</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$22/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house4.webp" alt="Beautiful Beach House_4" loading="lazy" class="hotel-img">
+                    <h2>Beautiful Beach House_4</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$26/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house4.webp" alt="Beautiful Beach House_5" loading="lazy" class="hotel-img">
+                    <h2>Beautiful Beach House_5</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$28/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house4.webp" alt="Beautiful Beach House_6" loading="lazy" class="hotel-img">
+                    <h2>Beautiful Beach House_6</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$23/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house4.webp" alt="Beautiful Beach House_7" loading="lazy" class="hotel-img">
+                    <h2>Beautiful Beach House_7</h2>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$43/night</p></a>
+                </div>
+                <div class="hotel">
+                    <a href="https://www.airbnb.com/rooms/37612212?adults=1&category_tag=Tag%3A8678&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1610861703&search_mode=flex_destinations_search&check_in=2024-11-04&check_out=2024-11-09&source_impression_id=p3_1729062920_P3ijDCV5gTBGBnmu&previous_page_section_name=1000&federated_search_id=eb739a9f-7c99-41d6-bec3-db8218535285">
+                    <img src="zurag/house4.webp" alt="Beautiful Beach House_8" loading="lazy" class="hotel-img">
+                    <p>Beautiful Beach House_8</p>
+                    <p class="location">Rio de Janeiro, Brazil</p>
+                    <p class="price">$43/night</p></a>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="inspiration" style="padding: 40px; text-align: center;">
+                <h3 style="font-size: 24px; font-weight: 600;">Inspiration for future getaways</h3>
+                <div class="tabs" style="display: flex; margin-bottom: 15px; border-bottom: 1px solid #ededed;">
+                    <button class="tab-link active">Popular</button>
+                    <button class="tab-link">Arts & culture</button>
+                    <button class="tab-link">Outdoors</button>
+                    <button class="tab-link">Mountains</button>
+                    <button class="tab-link">Beach</button>
+                    <button class="tab-link">Unique stays</button>
+                    <button class="tab-link">Categories</button>
+                    <button class="tab-link">Things to do</button>
+                    <button class="tab-link">Travel tips & inspiration</button>
+                    <button class="tab-link">Airbnb-friendly apartments</button>
+                </div>
+                <div class="locations" style="display: flex; gap: 40px;">
+                    <div class="location-item">
+                        <strong>Canmore</strong>
+                        <p>Chalet rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Benalmádena</strong>
+                        <p>Apartment rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Marbella</strong>
+                        <p>Villa rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Tucson</strong>
+                        <p>Pet-friendly rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Jasper</strong>
+                        <p>Cabin rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Mountain View</strong>
+                        <p>Family-friendly rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Mijas</strong>
+                        <p>House rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Prescott</strong>
+                        <p>Cottage rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Scottsdale</strong>
+                        <p>Mansion rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Anaheim</strong>
+                        <p>Apartment rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Monterey</strong>
+                        <p>Apartment rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Paso Robles</strong>
+                        <p>House rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Devonport</strong>
+                        <p>Cottage rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Mallacoota</strong>
+                        <p>Pet-friendly rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Ibiza</strong>
+                        <p>Vacation rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Santa Barbara</strong>
+                        <p>Condo rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <strong>Sonoma</strong>
+                        <p>Pet-friendly rentals</p>
+                    </div>
+                    <div class="location-item">
+                        <a href="#">Show more</a>
+                    </div>
+                </div>
+            </div>        
+        </section>
+    
+        <section class="hosting" style="padding: 40px; text-align: left"> 
+            <div class="hosting-section" style="flex: 1; padding: 0 20px;">
+                <h3 style="font-size: 16px;">Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">AirCover</a></li>
+                    <li><a href="#">Anti-discrimination</a></li>
+                    <li><a href="#">Disability support</a></li>
+                    <li><a href="#">Cancellation options</a></li>
+                    <li><a href="#">Report neighborhood concern</a></li>
+                </ul>
+            </div>
+            <div class="hosting-section" style="flex: 1; padding: 0 20px;">
+                <h3>Hosting</h3>
+                <ul>
+                    <li><a href="#">Airbnb your home</a></li>
+                    <li><a href="#">AirCover for Hosts</a></li>
+                    <li><a href="#">Hosting resources</a></li>
+                    <li><a href="#">Community forum</a></li>
+                    <li><a href="#">Hosting responsibly</a></li>
+                    <li><a href="#">Join a free Hosting class</a></li>
+                </ul>
+            </div>
+            <div class="hosting-section" style="flex: 1; padding: 0 20px;">
+                <h3>Airbnb</h3>
+                <ul>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">New features</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Gift cards</a></li>
+                    <li><a href="#">Airbnb.org emergency stays</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
     <footer style="padding: 10px; border-top: 1px solid #ddd; ">
         <div class="footer-item">
             <span>2024 Airbnb,Inc.</span><a href="#">Terms</a>
