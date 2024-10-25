@@ -140,12 +140,16 @@ nav ul li a:hover {
     background-color: #fff;
     border-radius: 15px;
     width: 20%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
 }
 .hotel a {
     text-decoration: none;
     color:#000;
 }
-.hotel-img {
+.hotel a img {
     max-width: 100%;
     height: auto;
 }
