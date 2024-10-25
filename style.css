@@ -8,6 +8,8 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 0;
+    border-bottom:1px solid #ddd;
 }
 
 .logo {
@@ -15,6 +17,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
+    font-weight: bold; 
+    color: #FF385C;
 }
 
 .logo img {

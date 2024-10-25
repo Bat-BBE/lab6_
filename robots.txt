@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /private/
-Disallow: /temp/
-Allow: /
-
+Disallow: /admin/
+Disallow: /search/
+Sitemap: https://bat-bbe.github.io/lab6_/sitemap.xml
