@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /private/
-Allow: /public/
-Crawl-delay: 10
-Sitemap: https://bat-bbe.github.io/lab6_/sitemap.xml
