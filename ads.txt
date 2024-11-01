@@ -1,2 +1,0 @@
-google.com, pub-1234567890123456, DIRECT
-openx.com, 12345, RESELLER
