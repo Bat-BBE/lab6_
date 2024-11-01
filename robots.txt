@@ -1,0 +1,15 @@
+# This robots.txt file controls crawling of URLs under https://bat-bbe.github.io/lab6_/
+# All crawlers are disallowed to crawl files in the "includes" directory, such
+# as .css, .js, but Google needs them for rendering, so Googlebot is allowed
+# to crawl them.
+
+User-agent: *
+Disallow: /includes/
+
+User-agent: Googlebot
+Allow: /includes/
+
+# Optional: Add a crawl delay if needed
+# Crawl-delay: 10
+
+Sitemap: https://bat-bbe.github.io/lab6_/sitemap.xml
